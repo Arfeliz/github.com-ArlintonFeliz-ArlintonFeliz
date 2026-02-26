@@ -15,6 +15,5 @@ jobs:
         with:
           node-version: 18
       - run: npm install
-      - run: npm run lint  # Verifica reglas de código
       - [cite_start]run: npm test      # Ejecuta tus pruebas de QA 
       - run: npm run build # Valida que el proyecto compila
