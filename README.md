@@ -33,12 +33,6 @@ Cuento con experiencia técnica en entornos corporativos, destacándome por el m
 
 ---
 
-### 📊 Estadísticas de GitHub
-![Estadísticas de Arlinton](https://github-readme-stats.vercel.app/api?username=ArlintonFeliz&show_icons=true&theme=radical)
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=ArlintonFeliz&layout=compact&theme=radical)
-
----
-
 ### 📩 Contacto
 * 📍 **Ubicación:** Distrito Nacional, República Dominicana.
 * 📧 **Correo:** [felizarlinton@gmail.com](mailto:felizarlinton@gmail.com).
