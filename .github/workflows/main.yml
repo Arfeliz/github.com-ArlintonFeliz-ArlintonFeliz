@@ -1,31 +1,64 @@
-name: Portfolio CI
+name: Portfolio CI/CD
 
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: arlinton-portfolio
     steps:
-      - name: Checkout del código
+      - name: Checkout del codigo
         uses: actions/checkout@v4
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
+          cache: npm
+          cache-dependency-path: arlinton-portfolio/package-lock.json
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Ejecutar Linter
         run: npm run lint
 
       - name: Ejecutar pruebas de QA
-        run: npm test
+        run: npm run test -- --run
 
-      - name: Validar compilación (Build)
+      - name: Validar compilacion (Build)
         run: npm run build
+
+      - name: Subir artefacto para Pages
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: arlinton-portfolio/dist
+
+  deploy:
+    if: github.event_name == 'push'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Desplegar a GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
