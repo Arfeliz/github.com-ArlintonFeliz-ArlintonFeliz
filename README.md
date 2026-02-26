@@ -1,36 +1,45 @@
 # github.com-ArlintonFeliz-ArlintonFeliz
 
-# Hi there, I'm Arlinton Feliz 👋 
-### Software Engineering Student | Fullstack Developer | QA Enthusiast
+# ¡Hola! Soy Arlinton Feliz 👋 
 
-[cite_start]I am a software engineering student (11/12 terms) [cite: 4, 13] [cite_start]with a background in Mechatronics. [cite_start]My focus is on building scalable applications and ensuring code quality through Software Testing[cite: 5, 20].
+### 🚀 Estudiante de Ingeniería de Software | Desarrollador Fullstack Junior | Especialista en Soporte TI
 
----
+Soy un desarrollador en formación con una mentalidad analítica forjada en la **Mecatrónica** y actualmente cursando el **cuatrimestre 11 de 12** de la carrera de **Ingeniería de Software** en Unicaribe. Mi enfoque principal es construir soluciones robustas, escalables y con un alto estándar de calidad (QA).
 
-### 🛠 My Tech Stack
-- [cite_start]**Languages:** JavaScript (ES6+), C#, Python, SQL[cite: 8].
-- **Frontend:** React.js, Vite, HTML5, CSS3.
-- [cite_start]**Backend & DB:** Node.js, MongoDB[cite: 8].
-- [cite_start]**Tools:** SAP (Advanced)[cite: 10, 25], Git, GitHub Actions, Docker.
+Cuento con experiencia técnica en entornos corporativos, destacándome por el manejo avanzado de **SAP** y la resolución de incidencias técnicas.
 
 ---
 
-### 🚀 Featured Projects
-#### 💻 Project Name (React + Vite)
-*Short description of what the project does.*
-- **Tech:** React, Tailwind, Firebase.
-- **Automation:** CI/CD pipeline for automated testing and deployment.
-- [Live Demo] | [Source Code]
+### 🛠️ Mi Stack Tecnológico
+
+* **Lenguajes:** JavaScript (ES6+), C#, Python y SQL.
+* **Frontend:** React.js con Vite, HTML5, CSS3.
+* **Backend & DB:** Node.js y MongoDB.
+* **Sistemas:** SAP (Nivel medio), Windows, Mac OS.
+* **Especialidades:** Software Testing (QA), Redes de Datos y Soporte Técnico TI.
 
 ---
 
-### 📊 GitHub Stats & Activity
-![Arlinton's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ArlintonFeliz&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArlintonFeliz&layout=compact&theme=radical)
+### 📈 Formación Continua
+* **Carrera Técnica en Desarrollo de Software:** Talending (En curso).
+* **Software Testing (QA):** Udemy.
+* **Soporte Técnico de TI:** Centu.
+* **Introducción a la Programación:** ITLA.
 
 ---
 
-### 📫 Connect with me
-- [cite_start]📧 [felizarlinton@gmail.com](mailto:felizarlinton@gmail.com) [cite: 3]
-- [cite_start]📍 Santo Domingo, DR [cite: 2]
-- 💼 [LinkedIn Profile]
+### 💼 Experiencia Relevante
+* **Jumbo CCN | Auxiliar de Electrodomésticos:** Manejo de SAP, auditoría de inventarios y soporte técnico a clientes (2021 - Actualidad).
+
+---
+
+### 📊 Estadísticas de GitHub
+![Estadísticas de Arlinton](https://github-readme-stats.vercel.app/api?username=ArlintonFeliz&show_icons=true&theme=radical)
+![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=ArlintonFeliz&layout=compact&theme=radical)
+
+---
+
+### 📩 Contacto
+* 📍 **Ubicación:** Distrito Nacional, República Dominicana.
+* 📧 **Correo:** [felizarlinton@gmail.com](mailto:felizarlinton@gmail.com).
+* 📞 **Teléfono:** 829-422-2586
