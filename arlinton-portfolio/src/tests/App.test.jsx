@@ -1,0 +1,10 @@
+import { render, screen } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
+import App from './App';
+
+describe('Portfolio Base Test', () => {
+  it('debe renderizar el nombre de Arlinton', () => {
+    render(<App />);
+    expect(screen.getByText(/Arlinton Feliz/i)).toBeInTheDocument();
+  });
+});
