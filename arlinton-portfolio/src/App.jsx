@@ -67,7 +67,7 @@ function App() {
           <div className="exp-item">
             <h4>Jumbo CCN</h4>
             <span className="role">Auxiliar de Electrodomésticos</span>
-            <p className="date">Nov 2021 - Actualidad</p>
+            <p className="date">Nov 2021 - Abr 2026</p>
             <ul>
               <li>Manejo avanzado de SAP para procesos operativos.</li>
               <li>Auditoría de ofertas y control de inventarios.</li>
