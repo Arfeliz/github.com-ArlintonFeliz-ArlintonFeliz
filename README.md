@@ -28,11 +28,6 @@ Cuento con experiencia técnica en entornos corporativos, destacándome por el m
 
 ---
 
-### 💼 Experiencia Relevante
-* **Jumbo CCN | Auxiliar de Electrodomésticos:** Manejo de SAP, auditoría de inventarios y soporte técnico a clientes (2021 - Actualidad).
-
----
-
 ### 📩 Contacto
 * 📍 **Ubicación:** Distrito Nacional, República Dominicana.
 * 📧 **Correo:** [felizarlinton@gmail.com](mailto:felizarlinton@gmail.com).
