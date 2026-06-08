@@ -7,6 +7,7 @@ const THEME_COLORS = {
   light:  '#2563eb',
   ocean:  '#00b4d8',
   purple: '#a855f7',
+  red: '#f12020'
 };
 
 const THEME_LABELS = {
@@ -14,6 +15,7 @@ const THEME_LABELS = {
   light:  'Claro',
   ocean:  'Océano',
   purple: 'Púrpura',
+  red: 'Rojo'
 };
 
 const SkillBar = ({ name, level }) => (
@@ -35,7 +37,7 @@ function App() {
     <div className="portfolio">
       <nav className="navbar">
         <div className="logo">
-          Arlinton<span>.</span>
+          Arlinton Feliz
         </div>
         <div className="theme-switcher">
           <span className="theme-label">Tema</span>
@@ -62,9 +64,9 @@ function App() {
             Especialista en soporte de sistemas mediante el uso avanzado de SAP.
           </p>
         </div>
-        <div className="hero-image-container">
+        {/* <div className="hero-image-container">
           <div className="image-placeholder"></div>
-        </div>
+        </div> */}
       </header>
 
       <main className="grid-container">
