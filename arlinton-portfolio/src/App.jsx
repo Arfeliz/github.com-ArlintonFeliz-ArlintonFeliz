@@ -16,10 +16,6 @@ const SkillBar = ({ name, level }) => (
 function App() {
   return (
     <div className="portfolio-dark">
-      <nav className="navbar">
-        <div className="logo">AFELIZ</div>
-      </nav>
-
       <header className="hero">
         <div className="hero-content">
           <p className="accent-text">Hola, mi nombre es</p>
@@ -29,7 +25,7 @@ function App() {
             Estudiante de término de Ingeniería de Software (11/12 cuatrimestres) con base técnica en Mecatrónica. 
             Especialista en soporte de sistemas mediante el uso avanzado de SAP.
           </p>
-          <button className="btn-main">Ver Proyectos</button>
+          {/*<button className="btn-main">Ver Proyectos</button>*/}
         </div>
         <div className="hero-image-container">
            {/* Aquí puedes colocar tu foto profesional */}
