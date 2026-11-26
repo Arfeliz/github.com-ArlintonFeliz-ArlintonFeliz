@@ -12,11 +12,6 @@ export function useTheme() {
     localStorage.setItem('portfolio-theme', theme);
   }, [theme]);
 
-  // Set initial theme on mount
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-  }, []);
-
   function setTheme(newTheme) {
     if (themes.includes(newTheme)) {
       setThemeState(newTheme);
